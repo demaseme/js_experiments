@@ -14,7 +14,10 @@
   },
   "scripts": {
     "test": "mocha  -r ts-node/register 'tests/unit/*.ts' ",
-    "compile": "tsc"
+    "compile": "tsc",
+    "prebuild": "rm -rf dist",
+    "build": "esbuild src/app.ts --bundle --minify --sourcemap --platform=node --target=es2020 --outfile=dist/app.js",
+    "postbuild": "cd dist && zip -r app.zip app.js*"
   },
   "devDependencies": {
     "@types/aws-lambda": "^8.10.112",
