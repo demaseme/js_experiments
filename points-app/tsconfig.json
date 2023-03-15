@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+      "target": "es2020",
+      "strict": true,
+      "preserveConstEnums": true,
+      "noEmit": true,
+      "sourceMap": true,
+      "module":"es2020",
+      "moduleResolution":"node",
+      "esModuleInterop": true, 
+      "skipLibCheck": true,
+      "forceConsistentCasingInFileNames": true,  
+      "outDir": "./built",
+      "types": [
+        "mocha",
+        "jest",
+        "chai",
+        "node"
+      ],
+    },
+    "exclude": ["node_modules"],
+    "include": ["tests/**/*.test.ts"]
+  }

@@ -1,0 +1,51 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Transform: AWS::Serverless-2016-10-31
+Description: 'points
+
+  Sample SAM Template for points
+
+  '
+Globals:
+  Function:
+    Timeout: 5
+    MemorySize: 512
+Resources:
+  PointsFunction:
+    Type: AWS::Serverless::Function
+    Properties:
+      CodeUri: PointsFunction
+      Handler: app.lambdaHandler
+      Runtime: nodejs16.x
+      Architectures:
+      - x86_64
+      Events:
+        HelloWorld:
+          Type: Api
+          Properties:
+            Path: /draw-points
+            Method: post
+    Metadata:
+      BuildMethod: esbuild
+      BuildProperties:
+        EntryPoints:
+        - app.ts
+        Minify: true
+        Target: es2020
+      SamResourceId: PointsFunction
+Outputs:
+  PointsApi:
+    Description: API Gateway endpoint URL
+    Value:
+      Fn::Sub: https://${ServerlessRestApi}.execute-api.${AWS::Region}.amazonaws.com/Prod/draw-points/
+  PointsFunction:
+    Description: PointsFunction Lambda Function ARN
+    Value:
+      Fn::GetAtt:
+      - PointsFunction
+      - Arn
+  PointsFunctionIamRole:
+    Description: Implicit IAM Role created for PointsFunction
+    Value:
+      Fn::GetAtt:
+      - PointsFunctionRole
+      - Arn
