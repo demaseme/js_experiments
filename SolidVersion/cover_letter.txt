@@ -1,0 +1,31 @@
+[Your Name]  
+[Your Address]  
+[City, State, Zip]  
+[Your Phone Number]  
+[Your Email Address]  
+[Date]  
+
+Hiring Manager  
+Google  
+[Google Office Address, if known]  
+
+Dear Hiring Manager,
+
+I am writing to express my keen interest in the Software Engineer position at Google, as advertised. With a solid foundation in software development, bolstered by my six years of experience in the tech industry and a Master’s degree in Computer Science, I believe I am well-qualified to contribute to the innovative projects at Google.
+
+As a Backend Engineer at GBM, I have honed my abilities in designing cloud services architecture using AWS, developing serverless systems with languages such as TypeScript, Python, and C#. My experience with CI/CD through AWS Pipelines has reinforced my skills in creating efficient and scalable applications. Additionally, my involvement in projects that prioritize security and client interaction at Verifone has equipped me with the tools necessary to develop robust RESTful APIs while ensuring data integrity and system reliability.
+
+My technical proficiency spans multiple programming languages, including C++, C#, and Python, which I have used to create solutions tailored to diverse client needs. Working closely with industry leaders like Santander and Banregio, I have learned the importance of clear communication and collaboration in a fast-paced environment. My experience with agile methodologies, namely SCRUM, has prepared me to not only adapt quickly to new challenges but to thrive in them.
+
+I am particularly excited about the prospect of joining Google due to its focus on cutting-edge technologies and commitment to innovation. I am passionate about leveraging cloud-native solutions and contributing my expertise to projects that aim to make a significant impact. Google embodies the values I hold dear: creativity, continuous improvement, and a user-centered approach.
+
+I am enthusiastic about the opportunity to bring my background in cloud computing and backend development to the talented team at Google. Thank you for considering my application. I am looking forward to the possibility of discussing how my experience and skills align with the goals of your team.
+
+Warm regards,
+
+David Gustavo Merinos Sosa  
+davs.ms@gmail.com  
+www.linkedin.com/in/david-merinos  
+merinoss.dev  
+
+(Note: Adjust the address and any personal contact details you want to include for privacy before sending.)
