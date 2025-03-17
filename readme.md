@@ -15,8 +15,8 @@ An AI-powered CLI tool that generates **personalized cover letters** based on yo
 I'm using the js_experiments repository to hold all JS related experiments, since TS is a superset of JS I believe this repo fits well. Each branch will hold a different project.
 ```sh
 git clone https://github.com/demaseme/js_experiments.git
-git checkout QuickVersion
-cd QuickVersion
+git checkout OpenAICoverLetter_SOLIDVersion
+cd SolidVersion
 ```
 
 2️⃣ **Install dependencies**
@@ -31,17 +31,17 @@ OPENAI_API_KEY=your-openai-api-key-here
 ```
 4️⃣ Run the CLI
 ```
-npx ts-node index.ts -r resume.pdf -j "Backend Engineer at Stripe"
+npx ts-node cli.ts -r resume.pdf -j "Backend Engineer at Stripe"
 ``` 
 
 ## 🚀 Usage
 ### Basic Command
 ```sh
-npx ts-node index.ts -r <resume-file> -j <job-description>
+npx ts-node cli.ts -r <resume-file> -j <job-description>
 ```
 - Example: 
 ```sh
-npx ts-node index.ts -r resume.txt -j "Software Engineer at Google"
+npx ts-node cli.ts -r resume.txt -j "Software Engineer at Google"
 ```
 
 ## 📂 File Support
